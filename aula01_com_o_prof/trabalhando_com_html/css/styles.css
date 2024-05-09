@@ -18,15 +18,10 @@ section{
     margin: 0 auto;
     background-color: #fff;
     padding: 20px;
-    margin: 10px 0;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0,
-0.1);
 }
 ul {
     list-style-type: none;
     padding: 0;
-    
 }
 li {
     margin-bottom: 10px;
