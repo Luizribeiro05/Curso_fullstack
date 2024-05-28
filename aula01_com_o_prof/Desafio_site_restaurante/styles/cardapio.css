@@ -1,0 +1,59 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  background-image: url("./img/cardapio.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 30px;
+  color: #ffc107;
+  text-shadow: 2px 2px 3px #000;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+}
+
+td strong {
+  font-weight: bold;
+}
+
+td:last-child {
+  text-align: right;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  background-color: #a52a2a;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover {
+  background-color: #800000;
+}

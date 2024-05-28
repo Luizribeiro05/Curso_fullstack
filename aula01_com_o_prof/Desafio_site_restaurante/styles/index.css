@@ -1,0 +1,51 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("./img/fundo-index.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+header {
+  background-color: #804000;
+  color: #fff;
+  padding: 20px 0;
+}
+
+h1 {
+  font-size: 3em;
+  margin: 0;
+  color: #804000;
+}
+
+p {
+  font-size: 1.2em;
+  margin: 20px 0;
+  color: black;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #a52a2a;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+a:hover {
+  background-color: #800000;
+}
+
+footer {
+  background-color: #804000;
+  color: #fff;
+  padding: 10px 0;
+  margin-top: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0; 
+  width: 100%;
+}
