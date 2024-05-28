@@ -1,40 +1,66 @@
 body {
   font-family: 'Arial', sans-serif;
   margin: 0;
-  padding: 20px;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: center;
+  color: white;
   background-image: url("./img/sobre.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  text-align: center;
-  color: #fff;
+  background-attachment: fixed;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+header {
+  background-color: #804000; 
+  color: #fff; 
+  padding: 20px 0;
 }
 
 h1 {
-  font-size: 3em;
-  margin-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.7);
-  padding: 10px 20px; 
-  border-radius: 5px; 
-  text-shadow: 2px 2px 3px #000;
+  font-size: 2.5em;
+  margin: 0;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  color: #fff; 
+  text-decoration: none;
+  padding: 10px 20px;
+  background-color: #a52a2a;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+nav a:hover {
+  background-color: #800000;
+}
+
+main {
+  padding: 20px;
+  text-align: left;
+}
+
+h2 {
+  color: #804000;
+  margin-top: 30px;
 }
 
 p {
-  line-height: 1.8;
-  font-size: 1.2em;
-  text-align: justify;
-  margin-bottom: 20px;
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 15px;
 }
 
-a {
+footer {
+  background-color: #804000;
   color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-  padding: 10px 20px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-a:hover {
-  background-color: rgba(0, 0, 0, 0.9);
+  padding: 10px 0;
+  margin-top: 20px;
+  text-align: center;
 }
