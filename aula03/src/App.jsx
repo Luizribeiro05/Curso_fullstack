@@ -1,14 +1,12 @@
 import React from 'react'
 import './App.css'
-import Imagem from './assets/imagem2.jpg'
-import TrabalhandoComImagensCondicionais from './components/TrabalhandoComImagensCondicionais';
-
+import HookContador from './components/HookContador';
 
 const App = () => {
     return (
-        <div>
-            <TrabalhandoComImagensCondicionais tipo="PUBLIC" />
-            <TrabalhandoComImagensCondicionais tipo="ASSET" />
+        <div className='container'>
+            <h1>Exemplo de Hook Contador</h1>
+            <HookContador/>
         </div>
     );
 }
