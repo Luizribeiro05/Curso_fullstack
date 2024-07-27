@@ -1,12 +1,17 @@
+import axios from 'axios';
 import React, { useState } from 'react';
 
 const FormularioDeRegistro = () => {
+
+  const urlBase = "http://localhost:3000"
+
   const [username, setUsername] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [confirmPassword, setConfirmPassword] = useState('');
   const [endereco, setEndereco] = useState('');
   const [telefone, setTelefone] = useState('');
+
 
   const validarSenhas = (password, confirmPassword) => {
     if (password !== confirmPassword) {

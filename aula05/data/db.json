@@ -1,0 +1,81 @@
+{
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Luiz Gonzaga",
+      "email": "luizribeiro.tech@gmail.com",
+      "curso": "Sistemas para internet"
+    },
+    {
+      "id": 2,
+      "nome": "Luana Carolina",
+      "email": "luanacarolina@hotmail.com",
+      "curso": "Sistemas para internet"
+    },
+    {
+      "id": 3,
+      "nome": "Joaquim Lucca",
+      "email": "joaquimlucca.tech@gmail.com",
+      "curso": "Sistemas para internet"
+    },
+    {
+      "nome": "Joao miguel",
+      "email": "joao@gamil.com",
+      "curso": "seistemas",
+      "id": 4
+    },
+    {
+      "nome": "Sicrano",
+      "email": "sicrano@gmail.com",
+      "id": 5
+    }
+  ],
+  "cursos": [
+    {
+      "nome": "Sistemas para internet",
+      "descricao": "Tecnologo em sistemas para internet",
+      "duracao": 3,
+      "instrutor": "Kelson Almeida",
+      "id": 1,
+      "curso": "Sistemas para internet"
+    },
+    {
+      "nome": "FullStack",
+      "descricao": "The Bast",
+      "duracao": 3,
+      "instrutor": "Kelson Almeida",
+      "id": 2
+    }
+  ],
+  "projetos": [
+    {
+      "nome": "Gestor de estoque",
+      "descricao": "gestor de estoque em java",
+      "data-inicial": "22/08/2024",
+      "data-final": "01/01/2025",
+      "id": 1
+    },
+    {
+      "nome": "biblioteca",
+      "descricao": "Gerenciamento de biblioteca em python",
+      "data-inicial": "13/03/2022",
+      "data-final": "01/01/2024",
+      "id": 2
+    },
+    {
+      "nome": "biblioteca",
+      "descricao": "Gerenciamento de biblioteca em python",
+      "data-inicial": "13/03/22",
+      "data-final": "12/04/23",
+      "id": 3
+    }
+  ],
+  "contatos": [
+    {
+      "nome": "LUIZ",
+      "contato": "123",
+      "mensagem": "oi",
+      "id": 1
+    }
+  ]
+}
